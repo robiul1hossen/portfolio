@@ -5,13 +5,13 @@ import thisYear3 from "./thisYear3.json";
 
 const ThisYear = () => {
   return (
-    <div className="bg-[#4831d4] h-fit py-10 ">
+    <div className="bg-[#4831d4] h-fit py-10" id="thisYear">
       <div className="lg:flex items-center lg:ms-40 ms-16">
         <div className="lg:w-[40%]">
           <h2 className="lg:text-6xl text-[#ccf381] text-4xl font-[900] mb-5">
             Over This <br /> Year,{" "}
           </h2>
-          <div className="text-white space-y-5 lg:text-xl text-sm w-3/4">
+          <div className="text-white space-y-5 lg:text-xl text-sm lg:w-3/4 me-4">
             <p>
               I've built products for companies and businesses around the globe ranging from marketing
               websites to complex solutions and enterprise apps with focus on fast, elegant and accessible
@@ -38,7 +38,7 @@ const ThisYear = () => {
         <div className="lg:w-[60%] w-[70%] mt-10">
           <div
             className="lg:w-3/4 w-full "
-            data-aos="fade-left"
+            data-aos="fade-right"
             data-aos-easing="linear"
             data-aos-duration="1500"
           >

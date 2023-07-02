@@ -1,19 +1,19 @@
 const About = () => {
   return (
-    <div className=" py-12 bg-[#F9F9F9] ">
+    <div className=" h-fit py-12 bg-[#F9F9F9]" id="about">
       <div className="lg:flex h-screen relative">
-        <div className="mt-24 lg:ms-40 mx-16 lg:w-1/2">
+        <div className="lg:mt-16 lg:ms-40 mx-16 lg:w-1/2">
           <h1 className="text-[#4831d4] lg:font-[800] font-[700] lg:text-6xl text-4xl mb-5 ">Design</h1>
-          <p className="w-3/4" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
-            I'm probably not the typical designer positioned behind an Illustrator artboard adjusting pixels,
-            but I design. Immersed in stylesheets tweaking font sizes and contemplating layouts is where
-            you'll find me (~_^). I'm committed to creating fluent user experiences while staying fashionable.
+          <p className="lg:w-3/4" data-aos="fade-up" data-aos-offset="300" data-aos-easing="ease-in-sine">
+            I am probably not the typical designer positioned behind an Illustrator artboard adjusting pixels,
+            but I design. Immersed in stylesheets tweaking font sizes and contemplating layouts is where you
+            wll find me (~_^). I am committed to creating fluent user experiences while staying fashionable.
           </p>
         </div>
-        <div className="lg:mt-[360px] mt-10 mx-16 lg:mr-10 lg:w-1/2">
+        <div className="lg:mt-[290px] mt-10 mx-16 lg:mr-10 lg:w-1/2 h-fit">
           <h1 className="text-[#4831d4] font-[700] lg:font-[800] lg:text-6xl text-4xl mb-5">Development</h1>
-          <p className="w-3/4" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
-            In building JavaScript applications, I'm equipped with just the right tools, and can absolutely
+          <p className="lg:w-3/4" data-aos="fade-up" data-aos-offset="300" data-aos-easing="ease-in-sine">
+            In building JavaScript applications, I am equipped with just the right tools, and can absolutely
             function independently of them to deliver fast, resilient solutions optimized for scale —
             performance and scalabilty are priorities on my radar.
           </p>
