@@ -1,11 +1,19 @@
 import { FaBars } from "react-icons/fa";
 
 const MainNavbar = () => {
+  const pdfFilePath = "/Robiul_Hossen_resume.pdf"; // Relative path to the PDF file in the public folder
+
   return (
     <div>
       <div className="navbar bg-[#333] text-white">
         <div className="flex-1">
-          <a className="btn btn-ghost normal-case text-xl">Download Resume</a>
+          <a
+            href={pdfFilePath}
+            download="Robiul_Hossen_resume.pdf"
+            className="btn btn-ghost normal-case text-xl"
+          >
+            Download Resume
+          </a>
         </div>
         <div className="flex-none gap-2">
           <div className="dropdown dropdown-end">
@@ -22,10 +30,18 @@ const MainNavbar = () => {
                 <a href="#">home</a>
               </li>
               <li>
-                <a href="">Download Resume</a>
+                <a href={pdfFilePath} download="Robiul_Hossen_resume.pdf">
+                  Download Resume
+                </a>
               </li>
               <li>
-                <a href="">View Resume</a>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://drive.google.com/file/d/1TJCumXsmQmGHxd0j7r5aMtJg5ec2QkQT/view?usp=sharing"
+                >
+                  View Resume
+                </a>
               </li>
               <li>
                 <a href="#about">About Me</a>

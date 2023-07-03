@@ -44,7 +44,7 @@ const Home = () => {
                 ]}
                 wrapper="span"
                 speed={50}
-                style={{ display: "block", width: "100%" }}
+                style={{ display: "inline-block", width: "60%" }}
                 repeat={Infinity}
               />
               <h1 className="text-white lg:text-2xl text-lg  lg:ms-40 mx-16 mt-3 lg:mt-5 leading-5">

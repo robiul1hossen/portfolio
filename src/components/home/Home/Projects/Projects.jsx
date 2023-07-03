@@ -5,7 +5,7 @@ import "./projects.css";
 const Projects = () => {
   return (
     <div className="bg-gradient-to-r from-[#4831d4] to-[#ccf381]" id="projects">
-      <div className="p-10 grid grid-cols-3 gap-10 mx-40">
+      <div className="p-10 lg:grid grid-cols-3 gap-10 lg:mx-40">
         <div className="card text-white bg-transparent shadow-2xl">
           <figure>
             <a target="_blank" rel="noopener noreferrer" href="https://tempo-tunes-4d7ee.web.app/">
